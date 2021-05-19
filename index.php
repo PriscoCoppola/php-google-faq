@@ -43,13 +43,15 @@ $faqs = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google FAQ</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
 </head>
 <body>
     
     <!-- HEADER -->
     <header>
         <div class="logo">
-            <img src="" alt="Logo">
+            <img src="https://www.google.it/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" alt="Logo">
             <div>Privacy e termini</div>
         </div>
         <div class="header">
@@ -85,7 +87,6 @@ $faqs = [
                 </ul>
             </div>
             <div class="language">
-                <img src="" alt="Language">
                 <select name="language" id="language">
                     <option value="italian">Italiano</option>
                     <option value="english">Inglese</option>
