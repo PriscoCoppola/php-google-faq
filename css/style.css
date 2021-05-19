@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ccc;
+}
+
+header .logo {
+    display: flex;
+}
+
+header .header ul {
+    display: flex;
+    list-style: none;
+}
+
+/* MAIN */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.footer .list ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer .language {
+    display: flex;
+}
